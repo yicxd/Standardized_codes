@@ -10,5 +10,3 @@ while True:
 
 if x1 == x2:
     print("Equal")
-else:
-    print("not equal")
