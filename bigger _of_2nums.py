@@ -1,3 +1,6 @@
+#i looped and added value error to all programs to make it easier for me to test (i misclick alot) :3
+#it still works without them, remove while true, try, line 9-12
+
 while True:
     try:
         print("Enter two whole numbers")
@@ -8,4 +11,7 @@ while True:
         print("try entering whole numbers")
         continue
 
-print(x1 + x2)
+if x1 < x2:
+    print(x2)
+else:
+    print(x1)
