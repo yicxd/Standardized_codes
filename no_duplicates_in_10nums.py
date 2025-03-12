@@ -1,10 +1,12 @@
 count = 0
 fcount = 10
+list = []
 
 while True:
     try:
-        num = int(input("Enter a whole number: ")).split
+        num = int(input("Enter a whole number: "))
         count = count + 1
+        list.append(num)
         if count != fcount: #stops after asking the 10th number
             continue
         else:
@@ -12,4 +14,4 @@ while True:
     except ValueError:
         print("please enter a whole number")
 
-print(num)
+print(list)
