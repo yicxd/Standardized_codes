@@ -7,3 +7,5 @@ while True:
         continue
     except ValueError:
         break
+
+print(min(list)) #min finds the smallest value in the list
