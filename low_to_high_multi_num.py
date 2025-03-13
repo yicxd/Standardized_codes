@@ -7,3 +7,6 @@ while True:
         continue
     except ValueError:
         break
+
+list.sort()
+print(list)
