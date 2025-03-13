@@ -7,3 +7,6 @@ while True:
         continue
     except ValueError:
         break
+
+#sum() is the sum of all in the list and len() is the count of elements
+print(sum(list) / len(list))
